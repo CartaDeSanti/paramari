@@ -13756,10 +13756,10 @@ j=k
 a=j
 g=a}if(e==null)e=o?B.yv:B.e1
 a0=A.ahk(e)
-a1=o?B.yP:B.jv
-a2=o?B.o:B.jq
+a1=o?B.yP:B.jw
+a2=o?B.o:B.jr
 a3=a0===B.av
-if(o)a4=B.ju
+if(o)a4=B.jv
 else{a5=n==null?d1:n.y
 a4=a5==null?B.fi:a5}a6=o?A.as(31,255,255,255):A.as(31,0,0,0)
 a7=o?A.as(10,255,255,255):A.as(10,0,0,0)
@@ -13767,7 +13767,7 @@ if(k==null)k=o?B.fj:B.z0
 if(f==null)f=k
 if(b==null)b=o?B.fk:B.i
 if(i==null)i=o?B.z4:B.z3
-if(n==null){a8=o?B.ju:B.jr
+if(n==null){a8=o?B.jv:B.js
 a5=o?B.fm:B.fo
 a9=A.ahk(B.e1)===B.av
 b0=A.ahk(a8)
@@ -13775,8 +13775,8 @@ b1=a9?B.i:B.o
 b0=b0===B.av?B.i:B.o
 b2=o?B.i:B.o
 b3=a9?B.i:B.o
-n=A.afF(a5,p,B.jz,d1,d1,d1,b3,o?B.o:B.i,d1,d1,b1,d1,d1,d1,b0,d1,d1,d1,b2,d1,d1,d1,d1,d1,d1,d1,B.e1,d1,d1,d1,d1,a8,d1,d1,d1,d1,b,d1,d1,d1,d1,d1,d1,d1,d1,d1,d1,d1,d1,d1)}b4=o?B.A:B.z
-b5=o?B.fm:B.jA
+n=A.afF(a5,p,B.jA,d1,d1,d1,b3,o?B.o:B.i,d1,d1,b1,d1,d1,d1,b0,d1,d1,d1,b2,d1,d1,d1,d1,d1,d1,d1,B.e1,d1,d1,d1,d1,a8,d1,d1,d1,d1,b,d1,d1,d1,d1,d1,d1,d1,d1,d1,d1,d1,d1,d1)}b4=o?B.A:B.z
+b5=o?B.fm:B.jB
 if(c==null)c=o?B.fk:B.i
 if(d==null){d=n.y
 if(d.k(0,e))d=B.i}b6=o?B.yl:A.as(153,0,0,0)
@@ -13798,7 +13798,7 @@ c8=c6.c8(d1)
 c9=o?new A.cN(d1,d1,d1,d1,d1,$.ask(),d1,d1,d1):new A.cN(d1,d1,d1,d1,d1,$.asj(),d1,d1,d1)
 d0=a3?B.AB:B.AC
 if(d6==null)d6=B.Iu
-if(h==null)h=B.jz
+if(h==null)h=B.jA
 if(a==null)a=o?B.fm:B.fo
 if(j==null)j=o?B.fk:B.i
 return A.ahj(d1,A.ayr(d3),B.wp,g===!0,a,B.ws,B.EI,j,B.wG,B.wH,B.wI,B.wQ,b7,k,b,B.y5,B.y7,B.y8,n,d1,B.zi,B.zj,c,B.zv,b8,i,B.zy,B.zz,B.zA,B.zR,h,B.zW,A.ayt(d2),B.A8,B.Aa,a6,b9,b6,a7,B.Aq,c9,d,B.xc,B.Bd,s,B.EO,B.EP,B.EQ,B.EX,B.EZ,B.F0,B.Fy,B.xs,d4,B.Gs,e,a2,a1,d0,c8,B.Gu,B.Gv,f,B.H3,B.H4,B.H5,b5,B.H6,B.o,d6,B.IB,c0,q,B.Ja,B.Jp,B.Jr,B.JN,c7,B.NZ,B.O_,a4,B.O1,c4,b4,d7,r)},
@@ -71532,23 +71532,23 @@ A.ze.prototype={
 ar(){this.a94()
 this.d=A.an7(B.Pk)
 this.aV()},
-P(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e="card1/back.jpg",d=t.w,c=A.c6(a,f,d).w.a.a,b=A.c6(a,f,d).w.a.b
-d=g.w
-if(J.km(d.a))g.CR()
+P(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null,e=t.w,d=A.c6(a,f,e).w.a.a,c=A.c6(a,f,e).w.a.b
+e=g.w
+if(J.km(e.a))g.CR()
 else g.d.CS("jfKfPfyJRdk")
 s=A.amL(f,B.It,f)
 r=A.Uq(f,new A.iY("background_images/pageBackground.jpg",f,f),1,B.kA)
-q=g.a8I(e,"card1/front.jpeg",!0,g.as)
-p=b*0.01
+q=g.a8I("card1/back.jpg","card1/front.jpeg",!0,g.as)
+p=c*0.01
 o=A.cb(f,p,f)
 n=A.Uq(B.j2,new A.iY("background_images/modelBackground.jpg",f,f),0.7,B.bb)
 m=t.af
-l=c*0.0001
+l=d*0.0001
 k=g.y
 j=g.gRi()
-i=b/14
+i=c/14
 h=g.r
-return new A.vH(new A.x3(A.em(f,A.CI(A.cb(A.lj(A.b([A.cb(A.D5(A.b([q,o,A.dA(A.em(f,new A.vQ("assets/3dModel/scene.glb","3D model",f),B.u,f,f,new A.dh(f,n,f,B.wB,f,f,B.ae),f,f,f,f,f,f,1/0),1,f,f)],m),B.ah),f,c/5.3),A.cb(f,f,l),A.cb(A.D5(A.b([A.cb(A.lj(A.b([g.vs("card2/back.jpg","card2/front.jpeg",!0,2,g.at),A.cb(f,f,l),A.D5(A.b([A.dA(A.agW(B.jF,"love",j,k,c,c),1,f,f),A.dA(A.agW(B.jx,"motivation",j,k,c,c),1,f,f),A.dA(A.agW(B.jw,"kind",j,k,c,c),1,f,f)],m),B.ah),A.cb(f,f,l),A.dA(A.em(B.O,new A.tl(new A.GB(b,k,f),"Click izquierdo para copiar",f),B.u,f,f,f,f,f,f,f,f,f,f),7,f,f)],m),B.b0,B.ah),b/5,f),A.cb(f,p,f),A.cb(A.lj(A.b([g.vs(e,"card3/front.jpeg",!0,1,g.ax),A.cb(A.D5(A.b([A.dA(A.em(f,f,B.u,f,f,new A.dh(f,A.Uq(B.f7,new A.iY("decoration_images/bannerImage.jpeg",f,f),1,B.kB),f,B.wC,f,f,B.ae),f,f,f,f,f,f,f),1,f,f),A.cb(f,p,f),A.dA(new A.D_(A.ox(8),new A.yd(g.d,f),f),4,f,f)],m),B.ah),f,c/3.15)],m),B.b0,B.ah),b/2.2,f),A.cb(f,p,f),A.dA(A.em(B.O,new A.xV("(\u0254 \u02d8 \xb3\u02d8)\u0254\ud83e\udd0d \xa1En este d\xeda tan especial quiero expresarte todo el amor y la ternura que siento por ti!. Eres la luz que ilumina mi vida, la raz\xf3n de mi sonrisa y el latido de mi coraz\xf3n, cada momento a tu lado es un regalo del cielo y cada palabra que compartimos es una melod\xeda de amor \ud83e\udd0d(\u02c6\u2323\u02c6\u0505)\u0254. Te amo m\xe1s all\xe1 de las palabras y deseo que este mensaje te llene de alegr\xeda y felicidad. \xa1Eres mi todo!",A.hI(f,f,f,f,f,f,f,f,"goudy_bookletter_1911",f,f,b/75,f,f,B.aA,f,f,!0,f,f,f,f,f,f,f,f),B.P5,f),B.u,f,f,f,f,f,f,f,f,f,1/0),2,f,f)],m),B.ah),f,c/2),A.cb(A.D5(A.b([g.vs("card4/back.jpg","card4/front.jpeg",!0,4,g.ay),A.cb(f,p,f),A.cb(A.lj(A.b([A.dA(new A.hA(g.d,B.GC,f,f,J.bh(d.a),f),1,f,f),A.dA(new A.hA(g.d,B.GD,f,f,J.bh(d.a),f),1,f,f),A.dA(new A.hA(g.d,B.GB,f,f,J.bh(d.a),f),1,f,f)],m),B.b0,B.ah),i,1/0),A.cb(f,p,f),A.cb(A.lj(A.b([A.dA(new A.hA(g.d,B.GF,h,f,J.bh(d.a),f),1,f,f),A.dA(new A.hA(g.d,B.GG,h,g.x,J.bh(d.a),f),1,f,f)],m),B.b0,B.ah),i,1/0),A.cb(f,p,f),A.dA(new A.hA(g.d,B.uU,h,f,J.bh(d.a),f),1,f,f),A.cb(f,p,f),A.dA(new A.hA(g.d,B.GE,f,f,J.bh(d.a),f),1,f,f),A.cb(f,p,f),A.cb(g.ac5(c,b),i,1/0)],m),B.ah),f,c/7)],m),B.b0,B.ah),b/1.4,c/1.2),f,f),B.u,f,f,new A.dh(f,r,f,f,f,f,B.ae),f,f,f,f,f,f,f),f),s,!1,f)},
+return new A.vH(new A.x3(A.em(f,A.CI(A.cb(A.lj(A.b([A.cb(A.D5(A.b([q,o,A.dA(A.em(f,new A.vQ("assets/3dModel/scene.glb","3D model",f),B.u,f,f,new A.dh(f,n,f,B.wB,f,f,B.ae),f,f,f,f,f,f,1/0),1,f,f)],m),B.ah),f,d/5.3),A.cb(f,f,l),A.cb(A.D5(A.b([A.cb(A.lj(A.b([g.vs("card2/back.jpg","card2/front.jpeg",!0,2,g.at),A.cb(f,f,l),A.D5(A.b([A.dA(A.agW(B.jF,"love",j,k,d,d),1,f,f),A.dA(A.agW(B.jy,"motivation",j,k,d,d),1,f,f),A.dA(A.agW(B.jx,"kind",j,k,d,d),1,f,f)],m),B.ah),A.cb(f,f,l),A.dA(A.em(B.O,new A.tl(new A.GB(c,k,f),"Click izquierdo para copiar",f),B.u,f,f,f,f,f,f,f,f,f,f),7,f,f)],m),B.b0,B.ah),c/5,f),A.cb(f,p,f),A.cb(A.lj(A.b([g.vs("card3/back.jpg","card3/front.jpeg",!0,1,g.ax),A.cb(A.D5(A.b([A.dA(A.em(f,f,B.u,f,f,new A.dh(f,A.Uq(B.f7,new A.iY("decoration_images/bannerImage.jpeg",f,f),1,B.kB),f,B.wC,f,f,B.ae),f,f,f,f,f,f,f),1,f,f),A.cb(f,p,f),A.dA(new A.D_(A.ox(8),new A.yd(g.d,f),f),4,f,f)],m),B.ah),f,d/3.15)],m),B.b0,B.ah),c/2.2,f),A.cb(f,p,f),A.dA(A.em(B.O,new A.xV("(\u0254 \u02d8 \xb3\u02d8)\u0254\ud83e\udd0d \xa1En este d\xeda tan especial quiero expresarte todo el amor y la ternura que siento por ti!. Eres la luz que ilumina mi vida, la raz\xf3n de mi sonrisa y el latido de mi coraz\xf3n, cada momento a tu lado es un regalo del cielo y cada palabra que compartimos es una melod\xeda de amor \ud83e\udd0d(\u02c6\u2323\u02c6\u0505)\u0254. Te amo m\xe1s all\xe1 de las palabras y deseo que este mensaje te llene de alegr\xeda y felicidad. \xa1Eres mi todo!",A.hI(f,f,f,f,f,f,f,f,"goudy_bookletter_1911",f,f,c/75,f,f,B.aA,f,f,!0,f,f,f,f,f,f,f,f),B.P5,f),B.u,f,f,f,f,f,f,f,f,f,1/0),2,f,f)],m),B.ah),f,d/2),A.cb(A.D5(A.b([g.vs("card4/back.jpg","card4/front.jpeg",!0,4,g.ay),A.cb(f,p,f),A.cb(A.lj(A.b([A.dA(new A.hA(g.d,B.GC,f,f,J.bh(e.a),f),1,f,f),A.dA(new A.hA(g.d,B.GD,f,f,J.bh(e.a),f),1,f,f),A.dA(new A.hA(g.d,B.GB,f,f,J.bh(e.a),f),1,f,f)],m),B.b0,B.ah),i,1/0),A.cb(f,p,f),A.cb(A.lj(A.b([A.dA(new A.hA(g.d,B.GF,h,f,J.bh(e.a),f),1,f,f),A.dA(new A.hA(g.d,B.GG,h,g.x,J.bh(e.a),f),1,f,f)],m),B.b0,B.ah),i,1/0),A.cb(f,p,f),A.dA(new A.hA(g.d,B.uU,h,f,J.bh(e.a),f),1,f,f),A.cb(f,p,f),A.dA(new A.hA(g.d,B.GE,f,f,J.bh(e.a),f),1,f,f),A.cb(f,p,f),A.cb(g.ac5(d,c),i,1/0)],m),B.ah),f,d/7)],m),B.b0,B.ah),c/1.4,d/1.2),f,f),B.u,f,f,new A.dh(f,r,f,f,f,f,B.ae),f,f,f,f,f,f,f),f),s,!1,f)},
 vs(a,b,c,d,e){var s=A.dA(null,1,new A.a9O(e),b),r=A.dA(null,1,new A.a9P(e),a)
 return A.agi(new A.uZ(s,e,!0,r,B.fK,B.aY,null),d)},
 a8I(a,b,c,d){return this.vs(a,b,c,1,d)},
@@ -71605,7 +71605,7 @@ s=o.Q
 r=o.w
 q=o.x
 p=o.d
-return A.lj(A.b([A.agY(r,B.jF,new A.a9U(o),"PLeTy2N15mY-sH9g20yn4hqtba7siPDrQv&si=EGUnc06sLBHBVQT8",q,B.Gk,b,p,s),A.agY(r,B.jx,new A.a9V(o),"PLMaXlNzA5SDBuniEPDMz3Hlqsdb8UocIk&si=eyjKJJ8q5d4gzKYt",q,B.Gm,b,p,s),A.agY(r,B.jw,new A.a9W(o),"PLMaXlNzA5SDD4wGRvVtcy3O2JKLiQkWkg&si=JSQRL47lmlFYtMgy",q,B.Gl,b,p,s)],t.af),B.b0,B.ah)}}
+return A.lj(A.b([A.agY(r,B.jF,new A.a9U(o),"PLeTy2N15mY-sH9g20yn4hqtba7siPDrQv&si=EGUnc06sLBHBVQT8",q,B.Gk,b,p,s),A.agY(r,B.jy,new A.a9V(o),"PLMaXlNzA5SDBuniEPDMz3Hlqsdb8UocIk&si=eyjKJJ8q5d4gzKYt",q,B.Gm,b,p,s),A.agY(r,B.jx,new A.a9W(o),"PLMaXlNzA5SDD4wGRvVtcy3O2JKLiQkWkg&si=JSQRL47lmlFYtMgy",q,B.Gl,b,p,s)],t.af),B.b0,B.ah)}}
 A.a9O.prototype={
 $0(){this.a.vt()},
 $S:4}
@@ -71661,7 +71661,7 @@ s=A.ox(10)
 r=A.ajv(B.yt,2)
 return A.pl(!1,!0,A.a4P(B.dl,A.b([A.em(q,p.e,B.u,q,q,new A.dh(B.ym,n,r,s,q,q,B.ae),q,1/0,B.zL,q,q,q,q),this.S1()],t.af),B.ag,B.ii),q,!0,q,q,q,q,q,q,q,new A.aav(this),q,o,q,q,q,q)},
 S1(){var s=null
-if(this.d)return A.CI(A.kN(B.AA,A.as(B.c.b_(127.5),255,0,170),s),s,s)
+if(this.d)return A.CI(A.kN(B.AA,A.as(B.c.b_(127.5),0,81,255),s),s,s)
 else return A.em(s,s,B.u,s,s,s,s,s,s,s,s,s,s)}}
 A.aav.prototype={
 $1(a){var s=this.a
@@ -76002,27 +76002,27 @@ B.dr=new A.oI(2,"antiAlias")
 B.bP=new A.oI(3,"antiAliasWithSaveLayer")
 B.fn=new A.I(4284960932)
 B.i=new A.I(4294967295)
-B.jC=new A.I(4293582335)
+B.jD=new A.I(4293582335)
 B.yu=new A.I(4280352861)
 B.yG=new A.I(4284636017)
-B.jB=new A.I(4293451512)
+B.jC=new A.I(4293451512)
 B.ys=new A.I(4280097067)
 B.yK=new A.I(4286403168)
 B.jG=new A.I(4294957284)
 B.yx=new A.I(4281405725)
 B.yQ=new A.I(4289930782)
-B.jD=new A.I(4294565596)
+B.jE=new A.I(4294565596)
 B.yA=new A.I(4282453515)
 B.jH=new A.I(4294966270)
 B.du=new A.I(4280032031)
 B.yV=new A.I(4293386476)
 B.fl=new A.I(4282991951)
 B.yJ=new A.I(4286149758)
-B.jy=new A.I(4291478736)
-B.js=new A.I(4281413683)
+B.jz=new A.I(4291478736)
+B.jt=new A.I(4281413683)
 B.z_=new A.I(4294242292)
 B.fp=new A.I(4291869951)
-B.yd=new A.oL(B.a0,B.fn,B.i,B.jC,B.yu,null,null,null,null,B.yG,B.i,B.jB,B.ys,null,null,null,null,B.yK,B.i,B.jG,B.yx,null,null,null,null,B.yQ,B.i,B.jD,B.yA,B.jH,B.du,B.jH,B.du,B.yV,null,null,null,null,null,null,null,B.fl,B.yJ,B.jy,B.o,B.o,B.js,B.z_,B.fp,B.fn)
+B.yd=new A.oL(B.a0,B.fn,B.i,B.jD,B.yu,null,null,null,null,B.yG,B.i,B.jC,B.ys,null,null,null,null,B.yK,B.i,B.jG,B.yx,null,null,null,null,B.yQ,B.i,B.jE,B.yA,B.jH,B.du,B.jH,B.du,B.yV,null,null,null,null,null,null,null,B.fl,B.yJ,B.jz,B.o,B.o,B.jt,B.z_,B.fp,B.fn)
 B.yz=new A.I(4281867890)
 B.yE=new A.I(4283381643)
 B.yT=new A.I(4291609308)
@@ -76036,7 +76036,7 @@ B.yF=new A.I(4284486672)
 B.yL=new A.I(4287372568)
 B.fq=new A.I(4293321189)
 B.yN=new A.I(4287860633)
-B.ye=new A.oL(B.av,B.fp,B.yz,B.yE,B.jC,null,null,null,null,B.yT,B.yy,B.yD,B.jB,null,null,null,null,B.yW,B.yC,B.yH,B.jG,null,null,null,null,B.yZ,B.yF,B.yL,B.jD,B.du,B.fq,B.du,B.fq,B.fl,null,null,null,null,null,null,null,B.jy,B.yN,B.fl,B.o,B.o,B.fq,B.js,B.fn,B.fp)
+B.ye=new A.oL(B.av,B.fp,B.yz,B.yE,B.jD,null,null,null,null,B.yT,B.yy,B.yD,B.jC,null,null,null,null,B.yW,B.yC,B.yH,B.jG,null,null,null,null,B.yZ,B.yF,B.yL,B.jE,B.du,B.fq,B.du,B.fq,B.fl,null,null,null,null,null,null,null,B.jz,B.yN,B.fl,B.o,B.o,B.fq,B.jt,B.fn,B.fp)
 B.X=new A.I(0)
 B.jm=new A.I(1087163596)
 B.yf=new A.I(134217728)
@@ -76052,28 +76052,28 @@ B.yl=new A.I(2583691263)
 B.A=new A.I(3019898879)
 B.ym=new A.I(3120562175)
 B.yo=new A.I(4039164096)
-B.jq=new A.I(4279858898)
+B.jp=new A.I(4278211071)
+B.jr=new A.I(4279858898)
 B.yt=new A.I(4280098077)
 B.fi=new A.I(4280191205)
 B.yv=new A.I(4280361249)
-B.jr=new A.I(4280391411)
+B.js=new A.I(4280391411)
 B.fj=new A.I(4281348144)
 B.fk=new A.I(4282532418)
 B.fm=new A.I(4284572001)
-B.ju=new A.I(4284809178)
+B.jv=new A.I(4284809178)
 B.yM=new A.I(4287485439)
 B.fo=new A.I(4287679225)
 B.yO=new A.I(4288066303)
 B.yP=new A.I(4288585374)
-B.jv=new A.I(4290502395)
-B.jw=new A.I(4290707435)
-B.jx=new A.I(4290765567)
-B.jz=new A.I(4292030255)
+B.jw=new A.I(4290502395)
+B.jx=new A.I(4290707435)
+B.jy=new A.I(4290765567)
+B.jA=new A.I(4292030255)
 B.yU=new A.I(4292927712)
-B.jA=new A.I(4293128957)
+B.jB=new A.I(4293128957)
 B.yX=new A.I(4294033919)
 B.z0=new A.I(4294638330)
-B.jE=new A.I(4294901930)
 B.jF=new A.I(4294950863)
 B.z2=new A.I(436207616)
 B.z3=new A.I(520093696)
@@ -76103,10 +76103,10 @@ B.cn=new A.I(1493172224)
 B.ds=new A.I(2164260863)
 B.zg=new A.fA(B.cn,null,null,B.cn,B.ds,B.cn,B.ds,B.cn,B.ds,B.cn,B.ds,0)
 B.fh=new A.I(4278221567)
-B.jp=new A.I(4278879487)
+B.jq=new A.I(4278879487)
 B.jo=new A.I(4278206685)
-B.jt=new A.I(4282424575)
-B.ze=new A.fA(B.fh,"systemBlue",null,B.fh,B.jp,B.jo,B.jt,B.fh,B.jp,B.jo,B.jt,0)
+B.ju=new A.I(4282424575)
+B.ze=new A.fA(B.fh,"systemBlue",null,B.fh,B.jq,B.jo,B.ju,B.fh,B.jq,B.jo,B.ju,0)
 B.yr=new A.I(4280032286)
 B.yw=new A.I(4280558630)
 B.jS=new A.fA(B.i,"systemBackground",null,B.i,B.o,B.i,B.o,B.i,B.yr,B.i,B.yw,0)
@@ -77450,7 +77450,7 @@ B.yI=new A.I(4284790262)
 B.yB=new A.I(4282557941)
 B.yq=new A.I(4279592384)
 B.yp=new A.I(4279060385)
-B.Et=new A.cu([50,B.jA,100,B.jv,200,B.fo,300,B.yI,400,B.yB,500,B.jr,600,B.fi,700,B.jq,800,B.yq,900,B.yp],A.a6("cu<m,I>"))
+B.Et=new A.cu([50,B.jB,100,B.jw,200,B.fo,300,B.yI,400,B.yB,500,B.js,600,B.fi,700,B.jr,800,B.yq,900,B.yp],A.a6("cu<m,I>"))
 B.e1=new A.Fv(B.Et,4280391411)
 B.aM=new A.dy(0,"hovered")
 B.bz=new A.dy(1,"focused")
@@ -78498,7 +78498,7 @@ $.agS=-9007199254740992
 $.aoa=null
 $.adE=null
 $.lZ=function(){var s="Tu perseverancia",r="un futuro brillante",q=t.s,p=t.N,o=t.yp
-return A.at(["Motivation",A.at(["sujetos",A.b(["Tu determinaci\xf3n","Tu esfuerzo",s,"Tu pasi\xf3n","Tu coraje","Tu dedicaci\xf3n","Tu entusiasmo","Tu constancia","Tu entrega","Tu voluntad","Tu fuerza de voluntad",s],q),"verbos",A.b(["te llevar\xe1 a","conducir\xe1 a","te guiar\xe1 a","te llevar\xe1 a","te dirigir\xe1 a","te impulsar\xe1 a","te encaminar\xe1 a"],q),"complementos",A.b(["grandes logros",r,"tus metas alcanzadas","tus sue\xf1os","logros impresionantes","tus objetivos","tus metas","tus sue\xf1os","conquistar tus metas",r,"alcanzar tus aspiraciones","un futuro prometedor"],q)],p,o),"Kind",A.at(["sujetos",A.b(["Mi cari\xf1o","Mi sue\xf1o","Mi inspiraci\xf3n","Mi luz","Mi anhelo","Mi felicidad","Mi alegr\xeda","Mi motivaci\xf3n","Mi fuerza"],q),"verbos",A.b(["existe por","origina de","nace de","emana","surge de","proviene de","florece por","se nutre de","se llena de"],q),"complementos",A.b(["ti","ti, mi tesoro","ti, mi todo","ti, mi amor","ti, cosita bonita","ti, mi ni\xf1a","ti, mi vida","tu amor","tu sonrisa","tu ser","tu esencia","tu calidez","tu compa\xf1\xeda","tu ternura","tu dulzura"],q)],p,o),"Love",A.at(["sujetos",A.b(["Tu sonrisa","Tu felicidad","Tu ternura","Tu cari\xf1o","Tu amor","Tu compa\xf1\xeda","Tu calidez","Tu mirada","Tu presencia","Tu esencia","Tu apoyo","Tu luz","Tu ser"],q),"verbos",A.b(["ilumina","dulcifica","endulza","embellece","mejora","alegra","enriquece","alumbra","anima","contenta","potencia","fortalece"],q),"complementos",A.b(["mi d\xeda","mi vida","mi mundo","mi coraz\xf3n","mi existencia","mi universo","mi ser","mi realidad","mis dias"],q)],p,o)],p,A.a6("ap<i,y<i>>"))}()
+return A.at(["Motivation",A.at(["sujetos",A.b(["Tu determinaci\xf3n","Tu esfuerzo",s,"Tu pasi\xf3n","Tu coraje","Tu dedicaci\xf3n","Tu entusiasmo","Tu constancia","Tu entrega","Tu voluntad","Tu fuerza de voluntad",s],q),"verbos",A.b(["te llevar\xe1 a","conducir\xe1 a","te guiar\xe1 a","te dirigir\xe1 a","te impulsar\xe1 a"],q),"complementos",A.b([r,"alcanzar todas tus metas","complir tus sue\xf1os","logros impresionantes","cumplir todos tus objetivos","realizar todas tus metas","cumplir tus sue\xf1os","conquistar tus metas",r,"alcanzar tus aspiraciones","un futuro prometedor"],q)],p,o),"Kind",A.at(["sujetos",A.b(["Mi cari\xf1o","Mi sue\xf1o","Mi inspiraci\xf3n","Mi luz","Mi anhelo","Mi felicidad","Mi alegr\xeda","Mi motivaci\xf3n","Mi fuerza"],q),"verbos",A.b(["existe por","origina de","nace de","emana","surge de","proviene de","florece por","se nutre de","se llena de"],q),"complementos",A.b(["ti","ti, mi tesoro","ti, mi todo","ti, mi amor","ti, cosita bonita","ti, mi ni\xf1a","ti, mi vida","tu amor","tu sonrisa","tu ser","tu esencia","tu calidez","tu compa\xf1\xeda","tu ternura","tu dulzura"],q)],p,o),"Love",A.at(["sujetos",A.b(["Tu sonrisa","Tu felicidad","Tu ternura","Tu cari\xf1o","Tu amor","Tu compa\xf1\xeda","Tu calidez","Tu mirada","Tu presencia","Tu esencia","Tu apoyo","Tu luz","Tu ser"],q),"verbos",A.b(["ilumina","dulcifica","endulza","embellece","mejora","alegra","enriquece","alumbra","anima","contenta","potencia","fortalece"],q),"complementos",A.b(["mi d\xeda","mi vida","mi mundo","mi coraz\xf3n","mi existencia","mi universo","mi ser","mi realidad","mis dias"],q)],p,o)],p,A.a6("ap<i,y<i>>"))}()
 $.avO=A.z(t.S,A.a6("avN"))
 $.alk=null
 $.ali=null
@@ -78922,10 +78922,10 @@ s($,"aGb","RU",()=>new A.a6O(A.c8("[/\\\\]",!0,!1),A.c8("[^/\\\\]$",!0,!1),A.c8(
 s($,"aGa","BO",()=>new A.a6x(A.c8("/",!0,!1),A.c8("(^[a-zA-Z][-+.a-zA-Z\\d]*://|[^/])$",!0,!1),A.c8("[a-zA-Z][-+.a-zA-Z\\d]*://[^/]*",!0,!1),A.c8("^/",!0,!1)))
 s($,"aG8","aiS",()=>A.ayd())
 s($,"aFw","t0",()=>A.akB())
-r($,"aII","fu",()=>{var q=A.ayA(B.jE),p=A.GY(30,0,100,"amount"),o=q.ad4()
+r($,"aII","fu",()=>{var q=A.ayA(B.jp),p=A.GY(30,0,100,"amount"),o=q.ad4()
 q.b=o.adC(A.aCq(o.d+p/100)).r7()
 return q.r7()})
-r($,"aIH","ajc",()=>A.ayB(B.jE,15))
+r($,"aIH","ajc",()=>A.ayB(B.jp,15))
 s($,"aGt","aiT",()=>new A.B())
 r($,"ayR","aqT",()=>{var q=new A.a_o()
 q.W_($.aiT())
